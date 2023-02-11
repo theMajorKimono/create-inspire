@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #04030c;
+    --text: #ffffffc9;
+    --light: #ffffff94;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-color: var(--primary);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+header .left {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+header .left a {
+    text-decoration: none;
+    color: #ffffff68;
+    font-size: 3vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all 0.2s ease-in;
+}
+
+header .left a:hover {
+    color: #ffffff92;
+}
+
+header .right {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.baksa {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    background: linear-gradient(185deg, rgb(4, 3, 12) 26%, rgba(8, 0, 15, 0.9) 100%);
+}
+
+.baye {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.baye .title h1 {
+    color: var(--text);
+    font-family: 'MuseoModerno', cursive;
+    font-size: 11vh;
+    margin: 25vh 0 0 8vw;
+    user-select: none;
+}
+
+.blue {
+    letter-spacing: 5px;
+}
+
+.baye .moto {
+    color: var(--light);
+    margin: 0 0 0 -2vw;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.daye {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.stairs {
+    width: 15vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.beard {
+    width: 15vw;
+    height: 60vh;
+    object-fit: cover;
+    margin: 10vh 0 0 2vw;
+}
+
+.shirt {
+    width: 15vw;
+    height: 60vh;
+    object-fit: cover;
+    margin: 20vh 0 0 2vw;
+}
+
+.dibba {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(8, 0, 15, 0.921);
+    background: linear-gradient(93deg, rgba(32, 25, 38, 1) 26%, rgba(25, 20, 32, 1) 100%);
+    display: flex;
+
+}
+
+.jahaz {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.globe {
+    height: 85vh;
+    width: 42.5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feather {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.feather h1 {
+    color: var(--text);
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 2px;
+    font-size: 7vh;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: -5vh;
+}
+
+.feather p {
+    margin-top: 5vh;
+    color: var(--light);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3vh;
+}
+
+.button {
+    width: 100%;
+    height: 20vh;
+}
+
+#kameez {
+    width: 9vw;
+    height: 8vh;
+    background-color: transparent;
+    border: 2px solid #ffffffc9;
+    font-size: 3vh;
+    color: var(--text);
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    z-index: 2;
+    right: 2vw;
+    margin-top: 5vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#kameez:hover {
+    padding: 10px;
+    background-color: var(--text);
+    color: var(--primary);
+    border-color: transparent;
+}
