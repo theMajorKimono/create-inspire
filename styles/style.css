@@ -256,6 +256,7 @@ body {
     object-fit: cover;
     filter: grayscale(100%);
     transition: all 1s;
+    user-select: none;
 }
 
 .img1:hover .staircase {
@@ -269,4 +270,32 @@ body {
     border: 2px solid rgba(164, 164, 164, 0.438);
     right: 27vw;
     top: 45vh;
+}
+
+.box2 {
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    border: 2px solid rgba(164, 164, 164, 0.438);
+    z-index: -222;
+    top: 133vh;
+    right: 27vw;
+}
+
+.img2 {
+    width: 50vw;
+    height: 60vh;
+    overflow: hidden;
+    margin: 28vh 0 0 25vw;
+}
+
+.guitar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.img2:hover .guitar {
+    width: 55vw;
 }
